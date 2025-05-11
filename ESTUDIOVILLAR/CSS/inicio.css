@@ -1,12 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f3c63;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .logo-titulo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .num-telefono {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+/* Estilo base (mobile) */
 .num-telefono {
-    margin-left: auto;
+    font-size: 14px; /* tamaño pequeño para móviles */
     font-weight: bold;
     color: #E9E9E9;
-}
+    text-align: right;
+  }
+  
+
 picture a img{
     height: 100px;
     width: 100px;
     margin: 0 auto;
+    background-color: #E9E9E9;
+    padding: 10px;
+    border-radius:50%;
+}
+.listado .servicio a h3{
+    text-decoration: none;
+    color: inherit;
 }
 .listado{
     display: flex;
@@ -18,7 +61,6 @@ picture a img{
     max-width: 1200px;
     background-color: #E9E9E9;
     border-radius: 10px;
-    
 }
 .listado .servicio{
     background-color: #23508a;
@@ -28,4 +70,17 @@ picture a img{
     text-align: center;
     width: 300px;
     grid-template-rows: 1fr;
+
 }
+  /* Escalado de fuente */
+  @media (min-width: 600px) {
+    .num-telefono {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .num-telefono {
+      font-size: 18px;
+    }
+  }
