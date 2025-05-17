@@ -1,0 +1,34 @@
+.servicios, .equipo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin-bottom: 40px;
+}
+.servicio, .persona {
+  flex: 1 1 220px;
+  background: var(--gris-claro);
+  border-radius: 8px;
+  padding: 24px 18px 20px 18px;
+  text-align: center;
+  min-width: 210px;
+  box-shadow: 0 1px 7px rgba(40,52,71,0.03);
+}
+.servicio h3 {
+  margin: 0 0 10px 0;
+  color: var(--azul);
+  font-size: 1.08rem;
+}
+.servicio p {
+  font-size: 0.98rem;
+  color: #444;
+}
+.persona h4 {
+  margin: 12px 0 6px 0;
+  color: var(--azul-claro);
+  font-size: 1.06rem;
+}
+.persona p {
+  font-size: 0.95rem;
+  color: #444;
+  margin: 0;
+}

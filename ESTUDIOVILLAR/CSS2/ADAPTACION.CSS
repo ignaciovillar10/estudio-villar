@@ -1,0 +1,22 @@
+@media (max-width: 700px) {
+  main, .hero {padding: 18px;}
+  .servicios, .equipo {flex-direction: row; gap: 12px;}
+}
+@keyframes fondoTranquilo {
+  0% {
+    background: linear-gradient(120deg, var(--gris-claro), var(--azul-claro));
+  }
+  50% {
+    background: linear-gradient(120deg, var(--azul-claro), var(--azul));
+  }
+  100% {
+    background: linear-gradient(120deg, var(--gris-claro), var(--azul-claro));
+  }
+}
+
+.hero {
+  animation: fondoTranquilo 10s ease-in-out infinite;
+  background-size: 200% 200%;
+  transition: background 0.5s ease-in-out;
+  color: black;
+}

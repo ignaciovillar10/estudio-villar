@@ -1,0 +1,36 @@
+header {
+  background: var(--azul);
+  color: #fff;
+  padding: 24px 16px; /* un poco de padding horizontal */
+  display: flex;              /* activa flexbox */
+  justify-content: space-between; /* separa los elementos a los extremos */
+  align-items: center;        /* centra verticalmente */
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+}
+
+nav {
+  margin: 0; /* sacamos margen superior para que quede alineado */
+}
+
+nav a {
+  color: #fff;
+  margin: 0 12px;  /* menos margen para que quede más compacto */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color .2s;
+}
+
+nav a:hover {
+  color: var(--azul-claro);
+}
+.logo{
+        height: 40px;
+    margin-right: 10px;
+}
