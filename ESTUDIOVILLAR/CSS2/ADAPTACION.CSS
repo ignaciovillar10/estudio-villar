@@ -1,4 +1,10 @@
-@media (max-width: 700px) {
+.hero {
+  animation: fondoTranquilo 10s ease-in-out infinite;
+  background-size: 200% 200%;
+  transition: background 0.5s ease-in-out;
+  color: black;
+}
+@media (width<= 700px) {
   main, .hero {padding: 18px;}
   .servicios, .equipo {flex-direction: row; gap: 12px;}
 }
@@ -14,9 +20,117 @@
   }
 }
 
-.hero {
-  animation: fondoTranquilo 10s ease-in-out infinite;
-  background-size: 200% 200%;
-  transition: background 0.5s ease-in-out;
-  color: black;
+
+@media (min-width: 768px) {
+  .footer-contenedor {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-bloque {
+    flex: 1 1 200px;
+  }
+
+  .footer-logo {
+    width: 120px;
+  }
+  .servicios,
+  .equipo {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 28px;
+    justify-content: center;
+  }
+
+  .servicio,
+  .persona {
+    flex: 1 1 220px;
+    min-width: 220px;
+    max-width: 320px;
+  }
+}
+@media (min-width: 768px) {
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 20px 40px;
+  }
+
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+
+  .navegacion {
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 0;
+  }
+
+  .navegacion a {
+    font-size: 1.1rem;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 80px 60px;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .cta {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+
+  /* Contacto */
+  .contacto-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Secciones en main (equipo, servicios ya lo tenías hecho) */
+  main {
+    padding: 40px 60px;
+  }
+}
+
+/* === DESKTOP VERSION === */
+@media (min-width: 768px) {
+  .servicio-item {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .servicio-numero {
+    font-size: 3rem;
+    flex-shrink: 0;
+    width: 60px;
+  }
+
+  .servicio-icono img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .servicio-contenido {
+    max-width: 600px;
+  }
 }

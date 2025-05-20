@@ -1,50 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-      <link rel="stylesheet" href="../CSS2/HEADER.CSS">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <link rel="stylesheet" href="../CSS2/SERVICIOS.CSS">
+  <link rel="stylesheet" href="../CSS2/HEADER.CSS">
   <link rel="stylesheet" href="../CSS2/COLORES.CSS">
-<link rel="stylesheet" href="../CSS2/MAIN.CSS">
-<link rel="stylesheet" href="../CSS2/ADAPTACION.CSS">
-<link rel="stylesheet" href="../CSS2/CONTACTO.CSS">
-<link rel="stylesheet" href="../CSS2/PIEDEPAGINA.CSS">
-<link rel="stylesheet" href="../CSS2/SECCION PRINCIPAL.CSS">
-<link rel="stylesheet" href="../CSS2/SERVICIOS.CSS">
+  <link rel="stylesheet" href="../CSS2/MAIN.CSS">
+  <link rel="stylesheet" href="../CSS2/ADAPTACION.CSS">
+  <link rel="stylesheet" href="../CSS2/CONTACTO.CSS">
+  <link rel="stylesheet" href="../CSS2/PIEDEPAGINA.CSS">
+  <link rel="stylesheet" href="../CSS2/SECCION PRINCIPAL.CSS">
+
 </head>
+
 <body>
 
-<header>
+  <header>
     <h1>Estudio Villar</h1>
-     <a href="index2.html"> <img class="logo" src="../IMAGENES/logo estudio.png" alt="logo">  </a>
+    <a href="index2.html"> <img class="logo" src="../IMAGENES/logo estudio.png" alt="logo"> </a>
     <nav>
-        <a href="servicios.html">Servicios</a>
-     <a href="contacto.html">Contacto</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
     </nav>
-</header>
-    <main>
-            <section id="servicios">
-      <h2>Nuestros Servicios</h2>
-      <div class="servicios">
-        <div class="servicio">
-          <h3>Contabilidad Integral</h3>
-          <p>Gestión de balances, libros y reportes para empresas y autónomos.</p>
-        </div>
-        <div class="servicio">
-          <h3>Declaraciones Impositivas</h3>
-          <p>Presentación y liquidación de impuestos nacionales, provinciales y municipales.</p>
-        </div>
-        <div class="servicio">
-          <h3>Auditoría</h3>
-          <p>Auditorías externas e internas, informes especiales y procedimientos acordados.</p>
-        </div>
-        <div class="servicio">
-          <h3>Consultoría y Planeamiento Fiscal</h3>
-          <p>Estrategias fiscales y financieras para tu negocio.</p>
-        </div>
+  </header>
+ <main>
+  <section id="servicios" class="servicios-timeline">
+    <h2>Nuestros Servicios</h2>
+    <div class="servicio-item">
+      <div class="servicio-numero">01</div>
+      <div class="servicio-icono"><img src="../IMAGENES/CONTABILIDAD.jpg" alt="Icono contabilidad"></div>
+      <div class="servicio-contenido">
+        <h3>Contabilidad Integral</h3>
+        <ul>
+          <li>Registro, control y análisis contable completo.</li>
+          <li>Balances, libros y reportes bajo normativa vigente.</li>
+        </ul>
       </div>
-    </section>
-    </main>
+    </div>
+
+    <div class="servicio-item">
+      <div class="servicio-numero">02</div>
+      <div class="servicio-icono"><img src="../IMAGENES/IMPUESTOS.jpg" alt="Icono impuestos"></div>
+      <div class="servicio-contenido">
+        <h3>Declaraciones Impositivas</h3>
+        <ul>
+          <li>Liquidación y presentación de impuestos.</li>
+          <li>Control de obligaciones fiscales y vencimientos.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="servicio-item">
+      <div class="servicio-numero">03</div>
+      <div class="servicio-icono"><img src="../IMAGENES/AUDITORIA.png" alt="Icono auditoría"></div>
+      <div class="servicio-contenido">
+        <h3>Auditoría</h3>
+        <p>Auditorías internas y externas con informes que brindan confianza institucional.</p>
+      </div>
+    </div>
+
+    <div class="servicio-item">
+      <div class="servicio-numero">04</div>
+      <div class="servicio-icono"><img src="../IMAGENES/PLANEAMIENTO.png" alt="Icono planeamiento fiscal"></div>
+      <div class="servicio-contenido">
+        <h3>Consultoría y Planeamiento Fiscal</h3>
+        <ul>
+          <li>Asesoramiento para reducir carga tributaria.</li>
+          <li>Optimización legal y planificación fiscal estratégica.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+   <footer class="footer">
+    <div class="footer-contenedor">
+      <div class="footer-logo">
+        <img src="../IMAGENES/logo estudio.png" alt="Logo Estudio Villar" />
+        <p>Asesoría contable y tributaria con foco en confianza y crecimiento.</p>
+      </div>
+
+      <div class="footer-enlaces">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index2.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contacto">
+        <h4>Contacto</h4>
+        <p>Email: contacto@estudiovillar.com</p>
+        <p>Tel: +54 11 1234 5678</p>
+        <p>Dirección: Av. Ejemplo 123, CABA</p>
+      </div>
+
+     <!-- <div class="footer-redes">
+        <h4>Seguinos</h4>
+        <a href="#" aria-label="LinkedIn"><img src="../IMAGENES/linkedin-icono.svg" alt="LinkedIn" /></a>
+       <a href="#" aria-label="Instagram"><img src="../IMAGENES/instagram-icono.svg" alt="Instagram" /></a>
+      </div>--> 
+    </div>
+
+    <div class="footer-copy">
+      &copy; 2025 Estudio Villar & Co. · Todos los derechos reservados
+    </div>
+  </footer>
+
 </body>
+
 </html>

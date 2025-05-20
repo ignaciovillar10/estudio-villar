@@ -5,7 +5,7 @@ header {
   display: flex;              /* activa flexbox */
   justify-content: space-between; /* separa los elementos a los extremos */
   align-items: center;        /* centra verticalmente */
-  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 12px rgba(14, 14, 40, 0.04);
 }
 
 header h1 {
